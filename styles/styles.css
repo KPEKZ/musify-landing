@@ -53,8 +53,13 @@
 }
 
 .description__list {
-    list-style-type: none;
-    list-style-image: url("/assets/group.png");
+    list-style-type: disc;
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 24px;
+    margin-left: 50px;
 }
 
 .list__item {
@@ -67,8 +72,6 @@
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     line-height: 32px;
-    top: 10%;
-    left: 25px;
     font-size: 24px;
 }
 
