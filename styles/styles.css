@@ -86,3 +86,43 @@
     top: 140px;
     box-shadow: 4px 4px 18px 35px rgba(15, 32, 42, 0.2);
 }
+
+.description__anchor {
+    width: max-content;
+    box-sizing: border-box;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1.2em 2.8em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid #fe7e91;
+    border-radius: 0.6em;
+    color: #fe7e91;
+}
+
+.description__anchor:hover, .description__anchor:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.description__anchor {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.description__anchor:hover {
+    box-shadow: 0 0 40px 40px #fe7e91 inset;
+}
+
+.description__goto {
+    font-size: 2rem;
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+}
