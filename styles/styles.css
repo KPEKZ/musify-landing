@@ -11,11 +11,11 @@
 .main {
     position: relative;
     width: 100vw;
-    background: linear-gradient(256.14deg, #064BB5 0%, #000000 97.55%);
 }
 
 body {
     overflow-x: hidden;
+    background: linear-gradient(256.14deg, #064BB5 0%, #000000 97.55%);
 }
 
 .wrapper {
@@ -135,7 +135,6 @@ body {
         flex-flow: column;
         gap: 30px;
         align-items: center;
-        height: max-content;
     }
 
     .app_img {
@@ -157,7 +156,6 @@ body {
         flex-flow: column;
         gap: 30px;
         align-items: center;
-        height: max-content;
     }
 
     .app_img {
@@ -187,7 +185,6 @@ body {
         flex-flow: column;
         gap: 30px;
         align-items: center;
-        height: max-content;
     }
 
     .app_img {
